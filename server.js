@@ -6,11 +6,11 @@ var app = express();
 
 app.use(compression());
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(express.static(__dirname + '/dist'));
+app.use(express.static(__dirname + '/src'));
 
 app.all("/api", proxy); 
 app.get('/*', function(req, res) {
-	res.sendFile(__dirname + '/dist/index.html');
+	res.sendFile(__dirname + '/src/index.html');
 });
 
 app.listen(3000);
