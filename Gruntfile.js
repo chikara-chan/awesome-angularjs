@@ -100,6 +100,13 @@ module.exports = function(grunt) {
         }
       }
     },
+    uncss: {
+      main: {
+        files: {
+          'dist/styles/main.min.css': ['dist/**/*.html']
+        }
+      }
+    },
     htmlmin: {
       pre: {
         files: [{
@@ -154,6 +161,13 @@ module.exports = function(grunt) {
         }
       }
     },
+    sprite: {
+       main: {
+        src: 'src/images/*.jpg',
+        dest: 'src/images/sprite.png',
+        destCss: 'src/styles/sass/sprite.scss'
+      }
+    },
     watch: {
       sass: {
         files: ['src/styles/sass/**/*.scss'],
@@ -174,7 +188,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-requirejs');
   grunt.loadNpmTasks('grunt-usemin');
+  grunt.loadNpmTasks('grunt-uncss');
+  grunt.loadNpmTasks('grunt-spritesmith');
 
-  grunt.registerTask('build', ['clean', 'jshint', 'requirejs', 'uglify', 'sass', 'cssmin', 'imagemin', 'htmlmin:pre', 'usemin','htmlmin:main']);
+  grunt.registerTask('build', ['clean', 'jshint', 'requirejs', 'uglify', 'sass', 'cssmin', 'imagemin', 'htmlmin:pre', 'usemin', 'htmlmin:main', 'uncss']);
 
 };
