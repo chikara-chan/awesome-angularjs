@@ -1,0 +1,36 @@
+{
+  "name": "angularjs-requirejs-sass-grunt-bower-nodejs",
+  "version": "1.0.0",
+  "description": "A Webapp of Lazy Loading in AngularJS Using Asynchronous Module Definitions with RequireJS.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chikara-chen/"
+  },
+  "scripts": {
+    "start": "supervisor server.js"
+  },
+  "keywords": [
+    "RequireJS",
+    "AngularJS"
+  ],
+  "author": "chikara chen (771334038@qq.com)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~3.2.0"
+  },
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-autoprefixer": "latest",
+    "grunt-contrib-clean": "latest",
+    "grunt-contrib-copy": "latest",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-htmlmin": "latest",
+    "grunt-contrib-imagemin": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-requirejs": "latest",
+    "grunt-contrib-sass": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-usemin": "latest"
+  }
+}

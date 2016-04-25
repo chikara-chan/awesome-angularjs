@@ -1,0 +1,20 @@
+{
+  "name": "angularjs-lazy-loading-with-requirejs",
+  "version": "1.0.0",
+  "description": "A Webapp of Lazy Loading in AngularJS Using Asynchronous Module Definitions with RequireJS.",
+  "authors": "chikara chen (771334038@qq.com)",
+  "license": "MIT",
+  "keywords": [
+    "RequireJS",
+    "AngularJS"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "bootstrap": "^3.3.6",
+    "angular": "angularjs#^1.5.5",
+    "requirejs": "^2.2.0",
+    "angular-route": "^1.5.5",
+    "normalize-strings": "normalize#^1.0.4",
+    "HTML5-Reset": "^2.1.3"
+  }
+}

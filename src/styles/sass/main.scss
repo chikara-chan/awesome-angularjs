@@ -1,0 +1,127 @@
+@import "base";
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+    font-size: (100vw / 3.75);
+}
+
+body {
+    font-size: $normal;
+    color: $gray;
+}
+
+a {
+    text-decoration: none;
+    color: $gray;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    padding: 0.1rem 0.15rem;
+}
+
+.btn {
+    background-color: transparent;
+    color: $gray;
+    font-size: $normal;
+    padding:0.05rem 0.1rem;
+
+    @include border($color: darken($gray-bg, 20%));
+
+    @include radius;
+}
+
+.btn-white {
+    background-color: $white;
+    color: $gray;
+    font-size: $normal;
+    padding:0.05rem 0.1rem;
+
+    @include border($color: darken($gray-bg, 20%));
+
+    @include radius;
+}
+
+.btn-green {
+    background-color: $green;
+    color: $white;
+    font-size: $normal;
+    padding:0.05rem 0.1rem;
+
+    @include border($color: darken($green, 10%));
+
+    @include radius;
+}
+
+.btn-red {
+    background-color: $red;
+    color: $white;
+    font-size: $normal;
+    padding:0.05rem 0.1rem;
+
+    @include border($color: darken($red, 10%));
+
+    @include radius;
+}
+
+.btn-blue {
+    background-color: $blue;
+    color: $white;
+    font-size: $normal;
+    padding:0.05rem 0.1rem;
+
+    @include border($color: darken($blue, 10%));
+
+    @include radius;
+}
+
+.btn-black {
+    background-color: $black;
+    color: $white;
+    font-size: $normal;
+    padding:0.05rem 0.1rem;
+
+    @include border($color: darken($black, 10%));
+
+    @include radius;
+}
+
+.btn-purple {
+    background-color: $purple;
+    color: $white;
+    font-size: $normal;
+    padding:0.05rem 0.1rem;
+
+    @include border($color: darken($purple, 10%));
+
+    @include radius;
+}
+
+.btn-orange {
+    background-color: $orange;
+    color: $white;
+    font-size: $normal;
+    padding:0.05rem 0.1rem;
+
+    @include border($color: darken($orange, 10%));
+
+    @include radius;
+}
+
+.btn-transparent {
+    background-color: transparent;
+    color: $white;
+    font-size: $normal;
+    padding:0.05rem 0.1rem;
+
+    @include border($color: darken($orange, 10%));
+
+    @include radius;
+}

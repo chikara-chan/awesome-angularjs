@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+  font-size: 26.66667vw;
+}
+
+body {
+  font-size: 0.15rem;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  padding: 0.1rem 0.15rem;
+}
+
+.btn {
+  background-color: transparent;
+  color: #333;
+  font-size: 0.15rem;
+  padding: 0.05rem 0.1rem;
+  border: 1px solid #bdbdcd;
+  border-radius: 0.05rem;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #333;
+  font-size: 0.15rem;
+  padding: 0.05rem 0.1rem;
+  border: 1px solid #bdbdcd;
+  border-radius: 0.05rem;
+}
+
+.btn-green {
+  background-color: #5cb85c;
+  color: #fff;
+  font-size: 0.15rem;
+  padding: 0.05rem 0.1rem;
+  border: 1px solid #449d44;
+  border-radius: 0.05rem;
+}
+
+.btn-red {
+  background-color: #D9534F;
+  color: #fff;
+  font-size: 0.15rem;
+  padding: 0.05rem 0.1rem;
+  border: 1px solid #c9302c;
+  border-radius: 0.05rem;
+}
+
+.btn-blue {
+  background-color: #337AB7;
+  color: #fff;
+  font-size: 0.15rem;
+  padding: 0.05rem 0.1rem;
+  border: 1px solid #285f8f;
+  border-radius: 0.05rem;
+}
+
+.btn-black {
+  background-color: #000;
+  color: #fff;
+  font-size: 0.15rem;
+  padding: 0.05rem 0.1rem;
+  border: 1px solid black;
+  border-radius: 0.05rem;
+}
+
+.btn-purple {
+  background-color: #5A4181;
+  color: #fff;
+  font-size: 0.15rem;
+  padding: 0.05rem 0.1rem;
+  border: 1px solid #42305f;
+  border-radius: 0.05rem;
+}
+
+.btn-orange {
+  background-color: #FF8C00;
+  color: #fff;
+  font-size: 0.15rem;
+  padding: 0.05rem 0.1rem;
+  border: 1px solid #cc7000;
+  border-radius: 0.05rem;
+}
+
+.btn-transparent {
+  background-color: transparent;
+  color: #fff;
+  font-size: 0.15rem;
+  padding: 0.05rem 0.1rem;
+  border: 1px solid #cc7000;
+  border-radius: 0.05rem;
+}
+
+/*# sourceMappingURL=main.css.map */

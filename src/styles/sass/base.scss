@@ -1,0 +1,54 @@
+$smaller: 0.11rem;
+$small: 0.13rem;
+$normal: 0.15rem;
+$large: 0.17rem;
+$larger: 0.19rem;
+
+@function initFontSize($t-smaller: $smaller, $t-small: $smaller, $t-normal: $smaller, $t-large: $smaller, $t-larger: $smaller) {
+    $smaller: $t-smaller;
+    $small: $t-small;
+    $normal: $t-normal;
+    $large: $t-large;
+    $larger: $t-larger;
+}
+
+$white: #fff;
+$black: #000;
+$gray: #333;
+$gray-bg: #F7F7F9;
+$green: #5cb85c;
+$blue: #337AB7;
+$red: #D9534F;
+$purple: #5A4181;
+$orange:#FF8C00;
+
+@mixin border($color: darken($gray-bg, 10%), $width: 1px, $style: solid) {
+    border: $width $style $color;
+}
+
+@mixin border-top($color: darken($gray-bg, 10%), $width: 1px, $style: solid) {
+    border-top: $width $style $color;
+}
+
+@mixin border-bottom($color: darken($gray-bg, 10%), $width: 1px, $style: solid) {
+    border-bottom: $width $style $color;
+}
+
+@mixin border-left($color: darken($gray-bg, 10%), $width: 1px, $style: solid) {
+    border-left: $width $style $color;
+}
+
+@mixin border-right($color: darken($gray-bg, 10%), $width: 1px, $style: solid) {
+    border-right: $width $style $color;
+}
+
+@mixin radius($radius: 0.05rem) {
+    border-radius: $radius;
+}
+
+@function alpha($color, $alpha: 1) {
+    @return rgba($color, $alpha);
+}
+
+
+

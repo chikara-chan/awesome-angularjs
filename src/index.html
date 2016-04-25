@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<base href="/">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+	<meta http-equiv="cleartype" content="on">
+	<!-- build:css styles/main.min.css -->
+	<link href="/styles/css/lib/reset.css" rel="stylesheet">
+	<link href="/styles/css/main.css" rel="stylesheet">
+	<!-- endbuild -->
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li>
+					<a href="/">Home</a>
+				</li>
+				<li>
+					<a href="/about/me">About</a>
+				</li>
+				<li>
+					<a href="/contact">Contact</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<main ng-view></main>
+
+	<footer></footer>
+
+	<script src="/scripts/lib/require.js" data-main="/scripts/main.js"></script>
+</body>
+</html>
