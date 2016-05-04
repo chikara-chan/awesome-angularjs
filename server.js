@@ -9,6 +9,9 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(__dirname + '/src'));
 
 app.all("/api", proxy); 
+app.get('/favicon.ico', function(req, res) {
+	res.end();
+});
 app.get('/*', function(req, res) {
 	res.sendFile(__dirname + '/src/index.html');
 });
