@@ -23,16 +23,16 @@ module.exports = function(req, res) {
         })
         response.on('end', function() {
             console.log('\n——————————————————————————————————————————————————');
-            console.log("<<< " + url);
-            console.log(">>> " + body);
+            console.log('<<< ' + req.method + ' ' + url);
+            console.log('>>> ' + body);
             res.send(body);
         });
 
     })
     request.on('error', function(e) {
         console.log('\n——————————————————————————————————————————————————');
-        console.log(url);
-        console.log("Error: " + e.message);
+        console.log('<<< ' + req.method + ' ' + url);
+        console.log('>>> Error: ' + e.message);
     })
     request.write(postData);
     request.end();
