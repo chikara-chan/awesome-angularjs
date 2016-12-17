@@ -1,4 +1,4 @@
-angularjs-requirejs-sass-grunt-bower-nodejs
+angularjs-boilerplate
 =====================================
 * 前端开发框架的整合Demo
 * 用`angularjs`做单页面MVVM框架、路由的控制
